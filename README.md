@@ -7,16 +7,17 @@
     * [Setup requirements](#setup-requirements)
     * [Beginning with TODO App](#beginning-with-TODO-App)
 3. [Functional & Non-Functional Requirements](#requirements)
-4. [Use Cases](#usecases)
+4. [Use Cases](#use-cases)
 5. [System Architecture Diagram](#system)
 6. [Sequence Diagram](#sequence-diagram)
 7. [Database Design](#database-design)
 8. [Class Diagram](#class-diagram)
 9. [Test Cases](#test-cases)
+10. [Work Breakdown](#work-breakdown)
 
 ## Description
 
-This is a small application that can be used as a simple to do list. You can add tasks, view tasks and delete tasks. The prompt for this app is an assignment in order to orient myself with the WAMP development stack. 
+This is a small application that can be used as a simple to do list. You can add tasks, view tasks and delete tasks. The prompt for this app is an assignment in order to orient myself with the WAMP development stack.
 
 ## Setup
 
@@ -45,3 +46,15 @@ This is a small application that can be used as a simple to do list. You can add
 
 ## Test Cases
 
+## Work Breakdown
+### Install Development Environment
+* Estimated Hours: 2
+* Actual time spent: 5
+* Notes: Nothing remarkable.
+* Issues: Port 80 problem, various Windows 10 services were blocking apache.
+
+### Learn PHP basics
+* Estimated Hours: 12
+* Actual time spent:
+* Notes:
+* Issues:
