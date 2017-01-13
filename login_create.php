@@ -6,8 +6,6 @@ if (isset($_POST['submit']))
 
   $username = $_POST['username'];
   $password = $_POST['password'];
-
-
   $connection = mysqli_connect('localhost', 'root', 'M@dd0x1234', 'todoapp');
 
     if($connection)
@@ -18,7 +16,19 @@ if (isset($_POST['submit']))
     {
       die("Database connection failed.");
     }
+
+
+  $query = "INSERT INTO users(username,password) ";
+  $query .= "VALUES ('$username', '$password')";
+
+  $result = mysqli_query($connection, $query);
+
+  if (!$result)
+  {
+    die('Query failed.');
   }
+
+}
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +46,7 @@ if (isset($_POST['submit']))
 <div class="container">
 
   <div class="col-sm-6">
-      <form class="" action="login.php" method="post">
+      <form class="" action="login_create.php" method="post">
         <label for="username">Username</label>
           <div class="form-group">
               <input type="text" class="form-control" name="username">
