@@ -9,10 +9,10 @@
 3. [Functional & Non-Functional Requirements](#requirements)
 4. [Use Cases](#usecases)
 5. [System Architecture Diagram](#system)
-6. [Sequence Diagram](#sequencediagram)
-7. [Database Design](#databasedesign)
-8. [Class Diagram](#classdiagram)
-9. [Test Cases](#testcases)
+6. [Sequence Diagram](#sequence-diagram)
+7. [Database Design](#database-design)
+8. [Class Diagram](#class-diagram)
+9. [Test Cases](#test-cases)
 
 ## Description
 
