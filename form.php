@@ -1,32 +1,4 @@
-<?php
 
-if(isset($_POST['submit']))
-{
-  $nameList = array("Edwin", "Student", "Peter", "Samid", "Becky", "Julie", "Tom");
-
-  $minimum = 5;
-  $maximum = 10;
-$username = $_POST['username'];
-$password = $_POST['password'];
-
-
-if (strlen($username) < $minimum)
-{
-  echo "Username has to be longer than five characters.";
-}
-if (strlen($username) > $maximum)
-{
-  echo "Username can't be longer than ten characters.";
-}
-
-if (in_array($username, $nameList))
-{
-  echo "Sorry you can't log in!";
-}
-else echo "Welcome!";
-}
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +10,7 @@ else echo "Welcome!";
 </head>
 <body>
 
-<form action="form.php" method="post">
+<form action="form_process.php" method="post">
   <input type="text" name="username" palceholder="Enter Username">
   <input type="password" name="password" palceholder="Enter Password">
 <br>
