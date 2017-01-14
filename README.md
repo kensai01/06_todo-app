@@ -11,6 +11,10 @@
     * [Non-Functional](#non-functional)
 4. [Use Cases](#use-cases)
 5. [System Architecture Diagram](#system)
+6. [Data Flow Diagrams](#data-flow-diagrams)
+    * [View Task Diagram](#view-task-diagram)
+    * [Add Task Diagram](#add-task-diagram)
+    * [Delete Task Diagram](#delete-task-diagram)
 6. [Sequence Diagram](#sequence-diagram)
 7. [Database Design](#database-design)
 8. [Class Diagram](#class-diagram)
@@ -32,7 +36,7 @@ This is a small application that can be used as a simple to do list. You can add
 
 ## Requirements
 ### Functional
-1. User should be able to add tasks. 
+1. User should be able to add tasks.
 1. User should be able to view tasks.
 1. User should be able to delete tasks.
 
@@ -45,14 +49,17 @@ This is a small application that can be used as a simple to do list. You can add
 
 | TITLE         | Add Tasks           |
 | -------------:|:--------------|
-| ID:       | 01 | 
-| Description     | User accesses the system and enters in       | 
+| ID:       | 01 |
+| Description     | User accesses the system and enters in       |
 | zebra stripes | are neat      |
 
 ## System Architecture Diagram
 
-
 ![alt text](images/system_architecture_diagram.JPG)
+
+## Data Flow Diagrams
+
+
 
 ## Sequence Diagram
 
