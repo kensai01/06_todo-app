@@ -38,6 +38,9 @@ This is a small application that can be used as a simple to do list. You can add
 
 ## System
 
+
+![alt text](images/system_architecture_diagram.JPG)
+
 ## Sequence Diagram
 
 ## Database Design
