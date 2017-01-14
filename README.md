@@ -56,5 +56,5 @@ This is a small application that can be used as a simple to do list. You can add
 ### Learn PHP basics
 * Estimated Hours: 12
 * Actual time spent:
-* Notes:
-* Issues:
+* Notes: PHP is fun.
+* Issues: I am far too used to Visual Studio holding my hand for syntax, refactoring, creation of classes etc.
