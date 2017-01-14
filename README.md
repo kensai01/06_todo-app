@@ -58,8 +58,14 @@ This is a small application that can be used as a simple to do list. You can add
 ![alt text](images/system_architecture_diagram.JPG)
 
 ## Data Flow Diagrams
+### View Task Diagram
+![alt text](images/DFD_view_task.JPG)
 
+### Add Task Diagram
+![alt text](images/DFD_add_task.JPG)
 
+### Delete Task Diagram
+![alt text](images/DFD_delete_task.JPG)
 
 ## Sequence Diagram
 
