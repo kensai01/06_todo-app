@@ -22,6 +22,7 @@ include "functions.php";
 <div class="container">
 
   <div class="col-sm-6">
+   <h1 class="text-center">Update</h1>
     <form action="login_update.php" method="post">
       <label for="username">Username</label>
       <div class="form-group">
