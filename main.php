@@ -5,16 +5,7 @@ include "class_todo.php";
   $task = new Todo();
   $task->CreateTask();
   $task->DeleteTask();
-
-  global $connection;
-  $query = "SELECT * FROM todo";
-
-  $result = mysqli_query($connection, $query);
-
-  if (!$result)
-  {
-    die('Query failed.');
-  }
+  $result = $task->getQuery();
 ?>
 
 <!DOCTYPE html>
@@ -41,47 +32,27 @@ include "class_todo.php";
             <div class="form-group">
                 <textarea type="password" class="form-control" name="notes"></textarea>
             </div>
-
             <input type="submit" class="btn btn-primary" name="create" value="CREATE">
         </form>
         <br>
         <h2 class="text-center">Current Tasks</h2>
-
-
         <table class="table table-hover table-striped table-responsive">
-        <?php
-          while ($row = mysqli_fetch_assoc($result))
-          {
-            foreach ($row as $field)
-            {
-              echo "<td>" . htmlspecialchars($field) . '</td>';
-            }
-            echo"</tr>";
-          }
-            ?>
+          <?php
+          $task->displayCurrentTasks($result);
+          ?>
           </table>
         <form class="" action="main.php" method="post">
+          <h2 class="text-center">Delete Task</h2>
           <select name="id" id="">
              <?php
-             global $connection;
-             $query = "SELECT * FROM todo";
-             $result = mysqli_query($connection, $query);
-             if(!$result) {
-                 die('Query FAILED' . mysqli_error());
-             }
-
-             while($row = mysqli_fetch_assoc($result)) {
-                $id = $row['id'];
-
-             echo "<option value=$id>$id</option>";
-
-             }
-               ?>
+             $result2 = $task->getQuery();
+             $task->displayIDSelector($result2);
+             ?>
           </select>
-
-          </div>
-
+          <br>
+          <br>
          <input class="btn btn-primary" type="submit" name="delete" value="DELETE">
+         </div>
         </form>
     </div>
   </div>
