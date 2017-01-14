@@ -6,7 +6,9 @@
 2. [Setup - The basics of getting started with TODO App](#setup)
     * [Setup requirements](#setup-requirements)
     * [Beginning with TODO App](#beginning-with-TODO-App)
-3. [Functional & Non-Functional Requirements](#requirements)
+3. [Requirements](#requirements)
+    * [Functional](#functional)
+    * [Non-Functional](#non-functional)
 4. [Use Cases](#use-cases)
 5. [System Architecture Diagram](#system)
 6. [Sequence Diagram](#sequence-diagram)
@@ -25,18 +27,29 @@ This is a small application that can be used as a simple to do list. You can add
 
 `TODO Create a more detailed Setup Guide`
 
-### Beginning with Testing Grounds
+### Beginning with the TODO Application
 
 
 ## Requirements
+### Functional
+1. User should be able to add tasks. 
+1. User should be able to view tasks.
+1. User should be able to delete tasks.
 
-`TODO add functional requirements and non-functional requirements.`
+### Non-Functional
+1. Usability - Needs to be very simple to use.
+1. Reliablity - Needs to be available all the time to be effective.
+1. Responsiveness - In order to be simple to use it must be very responsive when adding or removing tasks.
 
 ## Use Cases
 
-`TODO include a complete list of your module's classes, types, providers, facts, along with the parameters for each.`
+| TITLE         | Add Tasks           |
+| -------------:|:--------------|
+| ID:       | 01 | 
+| Description     | User accesses the system and enters in       | 
+| zebra stripes | are neat      |
 
-## System
+## System Architecture Diagram
 
 ## Sequence Diagram
 
