@@ -106,6 +106,7 @@ This is a small application that can be used as a simple to do list. You can add
 ![alt text](images/DFD_delete_task.JPG)
 
 ## Sequence Diagram
+![alt text](images/sequence_diagram.JPG)
 
 ## Database Design
 ![alt text](images/database_design.JPG)
@@ -114,6 +115,43 @@ This is a small application that can be used as a simple to do list. You can add
 ![alt text](images/class_diagram.JPG)
 
 ## Test Cases
+### Add Task Test
+#### Description
+Testing the adding of a task.
+#### Sequence of steps
+1. Open any browser.
+1. Go to http://localhost/CSC4996/TODO/main.php
+1. Under Create Task click in the Task field and enter a task name.
+1. Underneath enter the task description in the Notes field.
+1. Press the Create button.
+#### Expected result
+1. New task appears on the bottom of the task list
+#### Actual result
+#### Pass/Fail
+
+### View Task Test
+#### Description
+Testing the viewing of a task.
+#### Sequence of steps
+1. Open any browser.
+1. Go to http://localhost/CSC4996/TODO/main.php
+#### Expected result
+1. The task list appears on the page.
+#### Actual result
+#### Pass/Fail
+
+### Delete Task Test
+#### Description
+Testing the deletion of a task.
+#### Sequence of steps
+1. Open any browser.
+1. Go to http://localhost/CSC4996/TODO/main.php
+1. From the drop down selector, pick the ID of the task to be deleted.
+1. Press the Delete button.
+#### Expected result
+1. Task list is immediately updated with the deleted task removed from view.
+#### Actual result
+#### Pass/Fail
 
 ## Work Breakdown
 ### Install Development Environment
