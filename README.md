@@ -111,6 +111,7 @@ This is a small application that can be used as a simple to do list. You can add
 ![alt text](images/database_design.JPG)
 
 ## Class Diagram
+![alt text](images/class_diagram.JPG)
 
 ## Test Cases
 
