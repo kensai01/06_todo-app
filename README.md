@@ -10,7 +10,7 @@
     * [Functional](#functional)
     * [Non-Functional](#non-functional)
 4. [Use Cases](#use-cases)
-5. [System Architecture Diagram](#system)
+5. [System Architecture Diagram](#system-architecture-diagram)
 6. [Data Flow Diagrams](#data-flow-diagrams)
     * [View Task Diagram](#view-task-diagram)
     * [Add Task Diagram](#add-task-diagram)
@@ -50,9 +50,16 @@ This is a small application that can be used as a simple to do list. You can add
 | TITLE         | Add Tasks           |
 | -------------:|:--------------|
 | ID:       | 01 |
-| Description     | User accesses the system and enters in       |
-| zebra stripes | are neat      |
-
+| Description     | User opens the website in any browser and enters a task name and task notes in the entry fields. Then the user presses create in order to create the new task.      |
+| Primary Actor | User      |
+| Preconditions | User is on the app website and the database is not down      |
+| Postconditions | A task has been added to the list and the database has been updated     |
+| Success Scenario | <ul><li>1. User clicks inside of Task field and fills in the task name. </li><li>2. User clicks inside Notes field and fills in the description of the task to be added. </li><li>3. User presses the CREATE button. </li><li>4. System adds an id to the new task and saves the information in the database. </li><li>5. System displays the new task at the bottom of the task list to display the updated tasks. </li></ul> |
+| Extensions |<ul><li>2a. Task list is full.</li><li>2a1.System displays error message saying that no space is available, clear out some tasks. </li></ul>  |
+| Freequency of Use: | Daily      |
+| Status | Prototype      |
+| Owner | Mirza Besic     |
+| Priority | High      |
 ## System Architecture Diagram
 
 ![alt text](images/system_architecture_diagram.JPG)
@@ -87,3 +94,16 @@ This is a small application that can be used as a simple to do list. You can add
 * Actual time spent: 10
 * Notes: PHP is fun.
 * Issues: I am far too used to Visual Studio holding my hand for syntax, refactoring, creation of classes etc.
+
+### Write TODO Application
+* Estimated Hours: 5
+* Actual time spent: 3
+* Notes: The time spent going through the PHP course on Udemy really helped me understand how PHP communicates with MySQL which I believe was the biggest hurdle in this application.
+* Issues: PHP and MySQL syntax I am not very familiar with, so a LOT of time was spent chasing my tail over
+tiny little syntax mistakes that made my SQL queries not work for example. Need to put in more time.
+
+### Write Documentation
+* Estimated Hours: 10
+* Actual time spent:
+* Notes:
+* Issues:
