@@ -54,12 +54,43 @@ This is a small application that can be used as a simple to do list. You can add
 | Primary Actor | User      |
 | Preconditions | User is on the app website and the database is not down      |
 | Postconditions | A task has been added to the list and the database has been updated     |
-| Success Scenario | <ul><li>1. User clicks inside of Task field and fills in the task name. </li><li>2. User clicks inside Notes field and fills in the description of the task to be added. </li><li>3. User presses the CREATE button. </li><li>4. System adds an id to the new task and saves the information in the database. </li><li>5. System displays the new task at the bottom of the task list to display the updated tasks. </li></ul> |
-| Extensions |<ul><li>2a. Task list is full.</li><li>2a1.System displays error message saying that no space is available, clear out some tasks. </li></ul>  |
+| Success Scenario | <ul><li>User clicks inside of Task field and fills in the task name. </li><li>User clicks inside Notes field and fills in the description of the task to be added. </li><li>User presses the CREATE button. </li><li>System adds an id to the new task and saves the information in the database. </li><li>System displays the new task at the bottom of the task list to display the updated tasks. </li></ul> |
+| Extensions |<ol><li>Task list is full.</li><li>System displays error message saying that no space is available, clear out some tasks. </li></ol>  |
 | Freequency of Use: | Daily      |
 | Status | Prototype      |
 | Owner | Mirza Besic     |
 | Priority | High      |
+
+
+| TITLE         | View Tasks          |
+| -------------:|:--------------|
+| ID:       | 02 |
+| Description     | User opens the website in any browser and views the todo tasks.   |
+| Primary Actor | User      |
+| Preconditions | User is on the app website and the database is not down      |
+| Postconditions | User is able to view the current tasks    |
+| Success Scenario | <ol><li>User opens website in any browser.</li><li>System displays the current tasks in the database.</li></ol> |
+| Extensions |<ol><li>Task list is empty.</li><li>System displays a blank task list. </li></ol>  |
+| Freequency of Use: | Daily      |
+| Status | Prototype      |
+| Owner | Mirza Besic     |
+| Priority | High      |
+
+
+| TITLE         | Delete Tasks           |
+| -------------:|:--------------|
+| ID:       | 03 |
+| Description     | User opens the website in any browser and views the todo tasks. In order to delete a task the user selects the task and presses delete.      |
+| Primary Actor | User      |
+| Preconditions | User is on the app website and the database is not down      |
+| Postconditions | A task has been removed from the list and the database has been updated     |
+| Success Scenario | <ul><li>User clicks inside of drop down selector and picks task ID to be deleted. </li><li> User presses the delete button. </li><li>System deletes the corresponding task from the database. </li><li>System displays the new task list.</li></ul> |
+| Extensions |<ol><li>Task list is empty.</li><li>User can't select ID from drop down select.</li><li>If delete press, system disregards request.</li></ol>  |
+| Freequency of Use: | Daily      |
+| Status | Prototype      |
+| Owner | Mirza Besic     |
+| Priority | High      |
+
 ## System Architecture Diagram
 
 ![alt text](images/system_architecture_diagram.JPG)
