@@ -1,10 +1,14 @@
 <?php
-include "class_db.php";
 include "class_todo.php";
 
+  // Logic
+  // Create a new todolist which aggregates a todotask
   $task = new TodoList();
-  $task->currentTask->CreateTask();
-  $task->currentTask->DeleteTask();
+  // Task is created when form posts a submit of required information (name/notes)
+  $task->currentTask->createTask();
+  // Task is deleted when form posts a submit of required information (ID)
+  $task->currentTask->deleteTask();
+  // Get the current tasks
   $result = $task->getQuery();
 ?>
 
@@ -38,6 +42,7 @@ include "class_todo.php";
         <h2 class="text-center">Current Tasks</h2>
         <table class="table table-hover table-striped table-responsive">
           <?php
+          // Displays the current tasks
           $task->displayCurrentTasks($result);
           ?>
           </table>
@@ -45,8 +50,10 @@ include "class_todo.php";
           <h2 class="text-center">Delete Task</h2>
           <select name="id" id="">
              <?php
-             $result2 = $task->getQuery();
-             $task->displayIDSelector($result2);
+             //Get the current tasks again
+             $allRows = $task->getQuery();
+             //Display all the task ID's in a selector dropdown
+             $task->displayIDSelector($allRows);
              ?>
           </select>
           <br>
