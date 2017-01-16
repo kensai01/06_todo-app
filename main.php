@@ -1,10 +1,10 @@
 <?php
-include "db.php";
+include "class_db.php";
 include "class_todo.php";
 
-  $task = new Todo();
-  $task->CreateTask();
-  $task->DeleteTask();
+  $task = new TodoList();
+  $task->currentTask->CreateTask();
+  $task->currentTask->DeleteTask();
   $result = $task->getQuery();
 ?>
 
