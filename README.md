@@ -36,9 +36,11 @@ WAMP installed and running.
 1. Download the zip file and unzip the files into the wamp64/www directory.
    You should to create a folder called TODO in the wamp64/www folder in order to keep the files more organized and unzip there. 
 1. Log into mysql through the command prompt and create a database by typing CREATE DATABASE todoapp; 
+1. Type USE todoapp; in order to use this new created database.
 1. Create a table by typing CREATE TABLE todo (id INTEGER AUTO_INCREMENT, task VARCHAR(20), notes TEXT(250), PRIMARY KEY (id), UNIQUE(id));
-1. This is the database that will be filled with the required information.
-1. Go to localhost/TODO/main.php and begin adding and deleting tasks. 
+1. Type exit and press enter to exit the database.
+1. Open the browser that works with WAMP and go to: localhost/TODO/main.php.
+1. You should see the todo application on screen. 
 
 
 ## Requirements
