@@ -20,6 +20,7 @@
 8. [Class Diagram](#class-diagram)
 9. [Test Cases](#test-cases)
 10. [Work Breakdown](#work-breakdown)
+11. [Example Video](#example-video)
 
 ## Description
 
@@ -34,13 +35,13 @@ WAMP installed and running.
 ### Deploying the TODO Application
 1. Launch WAMP / Make sure WAMP is running
 1. Download the zip file and unzip the files into the wamp64/www directory.
-   You should to create a folder called TODO in the wamp64/www folder in order to keep the files more organized and unzip there. 
-1. Log into mysql through the command prompt and create a database by typing CREATE DATABASE todoapp; 
+   You should to create a folder called TODO in the wamp64/www folder in order to keep the files more organized and unzip there.
+1. Log into mysql through the command prompt and create a database by typing CREATE DATABASE todoapp;
 1. Type USE todoapp; in order to use this new created database.
 1. Create a table by typing CREATE TABLE todo (id INTEGER AUTO_INCREMENT, task VARCHAR(20), notes TEXT(250), PRIMARY KEY (id), UNIQUE(id));
 1. Type exit and press enter to exit the database.
 1. Open the browser that works with WAMP and go to: localhost/TODO/main.php.
-1. You should see the todo application on screen. 
+1. You should see the todo application on screen.
 
 
 ## Requirements
@@ -195,4 +196,7 @@ Testing the deletion of a task.
 * Estimated Hours: 10
 * Actual time spent: 15-20
 * Notes: Large learning curve on some of the items, likely they are still wrong as I'm still reading and learning about it.
-* Issues: The simplicity of the app made it difficult to map things out because a lot of diagrams depend on relations between objects where as here it's a straightforward application so there isn't much going on to draw out. 
+* Issues: The simplicity of the app made it difficult to map things out because a lot of diagrams depend on relations between objects where as here it's a straightforward application so there isn't much going on to draw out.
+
+### Example Video
+* Go to video folder inside of repository and download todo_app_example.mp4 video. 
