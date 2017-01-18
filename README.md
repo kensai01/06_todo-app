@@ -135,9 +135,12 @@ Testing the adding of a task.
 1. Under Create Task click in the Task field and enter a task name.
 1. Underneath enter the task description in the Notes field.
 1. Press the Create button.
+
 #### Expected result
 1. New task appears on the bottom of the task list
+
 #### Actual result
+
 #### Pass/Fail
 
 ### View Task Test
@@ -148,7 +151,9 @@ Testing the viewing of a task.
 1. Go to http://localhost/CSC4996/TODO/main.php
 #### Expected result
 1. The task list appears on the page.
+
 #### Actual result
+
 #### Pass/Fail
 
 ### Delete Task Test
@@ -159,9 +164,12 @@ Testing the deletion of a task.
 1. Go to http://localhost/CSC4996/TODO/main.php
 1. From the drop down selector, pick the ID of the task to be deleted.
 1. Press the Delete button.
+
 #### Expected result
 1. Task list is immediately updated with the deleted task removed from view.
+
 #### Actual result
+
 #### Pass/Fail
 
 ## Work Breakdown
