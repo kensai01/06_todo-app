@@ -5,7 +5,7 @@
 1. [Description](#description)
 2. [Setup - The basics of getting started with TODO App](#setup)
     * [Setup requirements](#setup-requirements)
-    * [Deploying the TODO App](#deploying-the-TODO-Application)
+    * [Deploying the TODO Application](#deploying-the-TODO-Application)
 3. [Requirements](#requirements)
     * [Functional](#functional)
     * [Non-Functional](#non-functional)
@@ -181,11 +181,10 @@ Testing the deletion of a task.
 * Estimated Hours: 5
 * Actual time spent: 3
 * Notes: The time spent going through the PHP course on Udemy really helped me understand how PHP communicates with MySQL which I believe was the biggest hurdle in this application.
-* Issues: PHP and MySQL syntax I am not very familiar with, so a LOT of time was spent chasing my tail over
-tiny little syntax mistakes that made my SQL queries not work for example. Need to put in more time.
+* Issues: PHP and MySQL syntax I am not very familiar with, so a LOT of time was spent chasing my tail over tiny little syntax mistakes that made my SQL queries not work for example. Need to put in more time.
 
 ### Write Documentation
 * Estimated Hours: 10
-* Actual time spent:
-* Notes:
-* Issues:
+* Actual time spent: 15-20
+* Notes: Large learning curve on some of the items, likely they are still wrong as I'm still reading and learning about it.
+* Issues: The simplicity of the app made it difficult to map things out because a lot of diagrams depend on relations between objects where as here it's a straightforward application so there isn't much going on to draw out. 
