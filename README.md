@@ -5,7 +5,7 @@
 1. [Description](#description)
 2. [Setup - The basics of getting started with TODO App](#setup)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with TODO App](#beginning-with-TODO-App)
+    * [Beginning with TODO App](#deploying-the-TODO-Application)
 3. [Requirements](#requirements)
     * [Functional](#functional)
     * [Non-Functional](#non-functional)
@@ -29,9 +29,16 @@ This is a small application that can be used as a simple to do list. You can add
 
 ### Setup Requirements
 
-`TODO Create a more detailed Setup Guide`
+WAMP installed and running.
 
-### Beginning with the TODO Application
+### Deploying the TODO Application
+1. Launch WAMP / Make sure WAMP is running
+1. Download the zip file and unzip the files into the wamp64/www directory.
+   You should to create a folder called TODO in the wamp64/www folder in order to keep the files more organized and unzip there. 
+1. Log into mysql through the command prompt and create a database by typing CREATE DATABASE todoapp; 
+1. Create a table by typing CREATE TABLE todo (id INTEGER AUTO_INCREMENT, task VARCHAR(20), notes TEXT(250), PRIMARY KEY (id), UNIQUE(id));
+1. This is the database that will be filled with the required information.
+1. Go to localhost/TODO/main.php and begin adding and deleting tasks. 
 
 
 ## Requirements
