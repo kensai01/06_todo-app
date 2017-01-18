@@ -5,7 +5,7 @@
 1. [Description](#description)
 2. [Setup - The basics of getting started with TODO App](#setup)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with TODO App](#deploying-the-TODO-Application)
+    * [Deploying the TODO App](#deploying-the-TODO-Application)
 3. [Requirements](#requirements)
     * [Functional](#functional)
     * [Non-Functional](#non-functional)
